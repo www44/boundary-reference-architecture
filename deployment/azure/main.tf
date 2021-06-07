@@ -8,6 +8,7 @@ module "azure" {
   controller_vm_count = 1
   worker_vm_count     = 1
   boundary_version    = var.boundary_version
+  location            = "westeurope"
 }
 
 module "boundary" {
